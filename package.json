@@ -1,0 +1,19 @@
+{
+  "name": "myntra-eros",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-wd": "webdriver-manager update",
+    "start": "npm run update-wd && protractor config.js"
+  },
+  "author": "Sudharsan Selvaraj <sudharsanselvaraj.c@gmail.com> (https://github.com/sudharsan-selvaraj/)",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.3.2"
+  },
+  "params" : {
+    "referral_link" : ""
+  }
+}
