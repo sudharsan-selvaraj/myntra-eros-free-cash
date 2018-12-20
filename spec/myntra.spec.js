@@ -4,6 +4,7 @@ describe("Create Myntra account and earn referral credits", function () {
     var invitationLink = browser.params.referral_link;
     beforeAll(function () {
         browser.ignoreSynchronization = true;
+        console.log("Referral URL is: "+invitationLink);
     });
 
     function getMailId() {
